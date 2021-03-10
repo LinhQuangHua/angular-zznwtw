@@ -13,6 +13,7 @@ import { CartComponent } from './cart/cart.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ShippingComponent } from './shipping/shipping.component';
 import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   imports: [
@@ -34,7 +35,8 @@ import { FooterComponent } from './footer/footer.component';
     ProductDetailsComponent,
     CartComponent,
     ShippingComponent,
-    FooterComponent
+    FooterComponent,
+    NavbarComponent
   ],
   bootstrap: [
     AppComponent

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color:#1976d2;
+  height: 200px; 
+  border-right: 1px solid black;
+  /* Should be removed. Only for demonstration */
+}
+
+.column h2,p {color: white;}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p.row  {
+  background-color:#79818a;
+  text-align: center;
+  padding: 10px;
+  height: 35px;
+  margin: 0;
+  }
